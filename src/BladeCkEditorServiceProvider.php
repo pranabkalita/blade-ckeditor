@@ -3,7 +3,7 @@
 namespace Pranabkalita\BladeCkeditor;
 
 use Illuminate\Support\Facades\Blade;
-use Barryvdh\Debugbar\ServiceProvider;
+use Illuminate\Support\ServiceProvider;
 use Pranabkalita\BladeCkeditor\View\Components\BladeCkeditor;
 
 class BladeCkEditorServiceProvider extends ServiceProvider
