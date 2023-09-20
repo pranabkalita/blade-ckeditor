@@ -1,6 +1,7 @@
 {
     "name": "pranabkalita/blade-ckeditor",
     "description": "Ckeditor 5 for Laravel",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
