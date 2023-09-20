@@ -33,5 +33,10 @@ class BladeCkEditorServiceProvider extends ServiceProvider
             $scriptPath = asset('/pranabkalita/ckeditor/build/ckeditor.js');
             return '<script src="' . $scriptPath . '"></script>';
         });
+
+        Blade::directive('alpineJs', function () {
+            $scriptPath = 'https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js';
+            return '<script src="' . $scriptPath . '" defer></script>';
+        });
     }
 }
