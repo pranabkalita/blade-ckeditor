@@ -1,0 +1,25 @@
+{
+    "name": "pranabkalita/blade-ckeditor",
+    "description": "Ckeditor 5 for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pranabkalita\\BladeCkeditor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pranab Kalita"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pranabkalita\\BladeCkeditor\\BladeCkEditorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
